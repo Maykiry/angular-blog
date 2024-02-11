@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-            src="https://images.entertainment.ie/uploads/2020/05/12140859/Iron-Man-2.jpg?w=640&h=384&q=high" 
+            src="{{ photoCover }}" 
             alt=""
             height="200px"
             
@@ -9,16 +9,12 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
         <p>
             <a href="#">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut 
-                pharetra ipsum, scelerisque porttitor ipsum. Curabitur vitae
-                 tortor non eros porta rutrum id fringilla metus. 
-                 Vestibulum vitae sagittis augue, elementum facilisis 
-                 lectus.  
+            {{ cardDescription }} 
             </a>
         </p>
     </div>
