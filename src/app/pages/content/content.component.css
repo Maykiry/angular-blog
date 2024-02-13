@@ -14,9 +14,9 @@
 .content__cover > img{
     border: 5px solid rgb(144, 144, 144);
     border-radius: 5px;
-    width: 500px;
-    min-width: 500px;
-    height: 300px;
+    width: 1000px;
+    min-width: 1000px;
+    height: 600px;
 }
 .content__description {
     margin-top: 15px;
@@ -24,7 +24,13 @@
 
 
 .content__description > p {
-    color: rgb(198, 197, 197);
+    color: grey;
     margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

@@ -19,7 +19,8 @@
     margin-top: 20px;
 }
 .big-card__description > p > a{
-    color: grey;
+    color: white;
+    
 }
 
 .big-card__photo > img {

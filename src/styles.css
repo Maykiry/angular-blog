@@ -3,9 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
+    background-image: url(https://img.freepik.com/free-vector/pink-blue-neon-frame-neon-frame-dark-background_53876-99048.jpg);
     color: white;
+    background-origin: content-box;
     font-family: Segoe UI;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: 100% 100%;
+    
 }
 a{
     text-decoration: none;
